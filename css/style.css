@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    font-family: Lucida Bright;
+}
+
+.logo h1 {
+    font-family: cursive;
+	font-size: 1.5em;
+}
+
+.max-800px {
+    max-width: 800px;
+}
+
+.author-image {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.description {
+    margin-left: 1em;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="No description ">
+
+	<title>Testing | cwblog</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>cwblog</h1></span>
+                </a>
+                
+                <a href="https://github.com/casperwang" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a href="https://www.instagram.com/casperwang1001/" class="navbar-item is-hidden-desktop" title="Instagram">
+                    <span class="icon"><i class='fab fa-instagram'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/about" class="navbar-item">About</a>
+                    
+                    <a href="/blog" class="navbar-item">Blog</a>
+                    
+                    <a href="/categories" class="navbar-item">Categories</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/casperwang" class="navbar-item is-hidden-touch" title="GitHub">
+                        <span class="icon"><i class='fab fa-github'></i></span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/casperwang1001/" class="navbar-item is-hidden-touch" title="Instagram">
+                        <span class="icon"><i class='fab fa-instagram'></i></span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header><main>
+<div class="container">
+    <div class="section">
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <a href="/categories/">Back to categories</a>
+                <div class="content">
+                    <h1>Category: Testing</h1>
+                    
+                    <a href="/blog/2021-04-28-test/">
+                        <div class="card columns" style="padding: 0; margin: 1.5em;">
+                            <div class="card-image column is-one-fifth" style="padding: 0;">
+                                <figure class="image is-3by2" style="margin: 0;">
+                                    
+                                    <img src="/images/blog/2021-04-28-test/test.png" alt="" style="object-fit: cover;">
+                                    
+                                </figure>
+                            </div>
+                            <div class="card-content column">
+                                <span class="title is-5 is-size-6-mobile">Hello World</span>
+                                <span class="heading"><time>April 28, 2021</time></span>
+                                <div class="content">
+                                    <span class="description">Testing article</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </main><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+        </div>
+    </div>
+</footer></body>
+</html>
