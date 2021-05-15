@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cwblog</title>
-    <link>/</link>
+    <link>https://casperwang.github.io/</link>
     <description>Recent content on cwblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>/blog/2021-04-28-test/</link>
+      <link>https://casperwang.github.io/blog/2021-04-28-test/</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2021-04-28-test/</guid>
+      <guid>https://casperwang.github.io/blog/2021-04-28-test/</guid>
       <description>Yeah！終於成功了XD
 之前的blog呢？  因為之前用別人的theme覺得不滿意的地方實在太多，就決定從頭開始全部自己弄了，希望他會變得越來越接近我喜歡的樣子。</description>
     </item>
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>https://casperwang.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://casperwang.github.io/about/</guid>
       <description>Hello, everyone </description>
     </item>
     
