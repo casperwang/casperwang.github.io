@@ -1,4 +1,4 @@
-const speed = 80;
+var speed = 80;
 var target = [$("#quote"), $("#handle")];
 var target_idx = 0;
 var content = [$("#quote").text(), $("#handle").text()];
@@ -19,12 +19,11 @@ function typewriter() {
 			return;
 		}
 		content_idx = 0;
-		setTimeout("typewriter()", speed);
 	} else {
 		target[target_idx].text(display_content + "_");
 		content_idx++;
-		setTimeout("typewriter()", speed);
 	}
+	setTimeout("typewriter()", speed);
 }
 
 init();
