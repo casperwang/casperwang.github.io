@@ -1,34 +1,16 @@
-// set up text to print, each item in array is new line
-var aText = new Array($("#quote").text());
-var iSpeed = 100; // time delay of print out
-var iIndex = 0; // start printing array at this posision
-var iArrLength = aText[0].length; // the length of the text array
-var iScrollAt = 20; // start scrolling up at this many lines
- 
-var iTextPos = 0; // initialise text position
-var sContents = ''; // initialise contents variable
-var iRow; // initialise current row
- 
-function typewriter() {
-	sContents = ' ';
-	iRow = Math.max(0, iIndex-iScrollAt);
-	var destination = document.getElementById("quote");
- 
-	while ( iRow < iIndex ) {
-		sContents += aText[iRow++] + '<br />';
-	}
-	destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
-	if (iTextPos++ == iArrLength) {
- 		iTextPos = 0;
-		iIndex++;
-		if (iIndex != aText.length) {
-			iArrLength = aText[iIndex].length;
-			setTimeout("typewriter()", 500);
-		}
+const speed = 100;
+
+function typewriter(target, content, idx) {
+	var display_content = string(content).substring(0, idx);
+
+	if (idx == content.length) {
+		target.text(display_content);
 	} else {
-		setTimeout("typewriter()", iSpeed);
+		target.text(display_content + "_");
+		setTimeout(typewriter(target, idx+1), speed);
 	}
 }
 
 
-typewriter();
+typewriter($("#quote"), $("#quote").text(), 0);
+typewriter($("#handle"), $("#handle").text(), 0);
