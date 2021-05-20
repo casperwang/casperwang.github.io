@@ -6,7 +6,16 @@
     <description>Recent content in Categories on cwblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competitive Programming</title>
+      <link>https://casperwang.github.io/categories/competitive-programming/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://casperwang.github.io/categories/competitive-programming/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Testing</title>
       <link>https://casperwang.github.io/categories/testing/</link>
