@@ -5,6 +5,11 @@ body {
     min-height: 100vh;
 }
 
+.logo h1 {
+    font-family: cursive;
+	font-size: 1.5em;
+}
+
 main {
     flex: 1;
     font-family: Noto Serif TC;
@@ -12,4 +17,5 @@ main {
 
 .description {
     margin-left: 1em;
+    font-family: Noto Serif TC;
 }
