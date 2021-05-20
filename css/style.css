@@ -13,6 +13,8 @@ body {
 main {
     flex: 1;
     font-family: Noto Serif TC;
+    text-align: justify;
+
 }
 
 .description {
