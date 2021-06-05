@@ -6,13 +6,31 @@
     <description>Recent content in Blogs on cwblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CF 1103D Professional layer</title>
+      <link>https://casperwang.github.io/blog/2021-06-05-cf_1103d/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://casperwang.github.io/blog/2021-06-05-cf_1103d/</guid>
+      <description>Description 題目連結 給你 $N$ 個數字，對於每個數字你可以進行至多一次操作：將 $a_i$ 除以一個他小於等於 $k$ 的因數。 每個數字 $a_i$ 有各自的 $e_i$ 代表若對他採取操作會需要增加</description>
+    </item>
+    
+    <item>
+      <title>AIS3 pre-exam</title>
+      <link>https://casperwang.github.io/blog/2021-05-22-ais3_pre_exam/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://casperwang.github.io/blog/2021-05-22-ais3_pre_exam/</guid>
+      <description>上次打bamboofox覺得挺有趣的，又因為去年參加過的曹宸睿說會覺得頗有收穫所以想報名看看，就順勢拉了蛋餅、蕭梓宏、劉至軒、鄭允臻等人一起</description>
+    </item>
+    
     <item>
       <title>高中資訊競賽回顧</title>
-      <link>https://casperwang.github.io/blog/2021-05-01-cpsr/</link>
+      <link>https://casperwang.github.io/blog/2021-05-01-competitive_programming_review/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://casperwang.github.io/blog/2021-05-01-cpsr/</guid>
+      <guid>https://casperwang.github.io/blog/2021-05-01-competitive_programming_review/</guid>
       <description>緣起 國二上的某天，蕭梓宏突然來問我要不要參加一個寫程式的比賽，故事開始。 我當時剛開始學我的第一個程式語言—Javascript，正試圖要寫一</description>
     </item>
     

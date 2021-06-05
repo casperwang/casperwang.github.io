@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Security on cwblog</title>
+    <link>https://casperwang.github.io/categories/information-security/</link>
+    <description>Recent content in Information Security on cwblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/categories/information-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AIS3 pre-exam</title>
+      <link>https://casperwang.github.io/blog/2021-05-22-ais3_pre_exam/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://casperwang.github.io/blog/2021-05-22-ais3_pre_exam/</guid>
+      <description>上次打bamboofox覺得挺有趣的，又因為去年參加過的曹宸睿說會覺得頗有收穫所以想報名看看，就順勢拉了蛋餅、蕭梓宏、劉至軒、鄭允臻等人一起</description>
+    </item>
+    
+  </channel>
+</rss>

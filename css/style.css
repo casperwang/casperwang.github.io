@@ -20,3 +20,18 @@ main {
     margin-left: 1em;
     font-family: Noto Serif TC;
 }
+
+.card {
+    margin: 1.5em;
+}
+
+.column {
+    max-width: 800px;
+}
+
+@media only screen
+and (max-width: 650px) {
+    .section {
+        padding-top: 1.5em;
+    }
+}

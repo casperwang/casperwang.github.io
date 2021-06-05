@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="上次打bamboofox覺得挺有趣的，又因為去年參加過的曹宸睿說會覺得頗有收穫所以想報名看看，就順勢拉了蛋餅、蕭梓宏、劉至軒、鄭允臻等人一起 ">
+
+<title>AIS3 pre-exam | cwblog</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="shortcut icon" href= "https://casperwang.github.io//favicon.ico" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium Web">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+			showMathMenu: false, //disables context menu
+			tex2jax: {
+			inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+			}
+	});
+</script>
+<link rel="stylesheet" href="/css/blog_single.css" />
+
+	</head>
+    <body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>cwblog</h1></span>
+                </a>
+                
+                <a href="https://github.com/casperwang" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a href="https://www.instagram.com/casperwang1001/" class="navbar-item is-hidden-desktop" title="Instagram">
+                    <span class="icon"><i class='fab fa-instagram'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/about" class="navbar-item">About</a>
+                    
+                    <a href="/blog" class="navbar-item">Blog</a>
+                    
+                    <a href="/categories" class="navbar-item">Categories</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/casperwang" class="navbar-item is-hidden-touch" title="GitHub">
+                        <span class="icon"><i class='fab fa-github'></i></span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/casperwang1001/" class="navbar-item is-hidden-touch" title="Instagram">
+                        <span class="icon"><i class='fab fa-instagram'></i></span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header><main>
+<section class="section">
+	<article>
+		<div class="columns is-centered">
+			<div class="column max-800px">
+				<h1 class="title is-2">AIS3 pre-exam</h1>
+				<div class="title subtitle heading is-6">
+					<div class="columns is-vcentered inform">
+    					<div class="column">
+							<div class="columns is-vcentered is-mobile">
+								
+								<div class="column is-narrow">
+									<img src="/images/avatar.png" class="author-image">
+								</div>
+								
+								<div class="column">
+									<p>Casper Wang</p>
+									<p><time>May 22, 2021</time> | 4  minutes </p>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<a href="/categories/information-security">Information Security</a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<p>上次打bamboofox覺得挺有趣的，又因為去年參加過的曹宸睿說會覺得頗有收穫所以想報名看看，就順勢拉了蛋餅、蕭梓宏、劉至軒、鄭允臻等人一起報名參加了。</p>
+<p>同時報名了MyFirstCTF和AIS3 pre-exam，但因為週六白天是APIO所以不幸的完美錯過比賽時間，只剩下pre-exam可以打。</p>
+<p>以下是這場比賽的簡單Write up，順便紀錄一下自己這次學到了些什麼。</p>
+<h1 id="microchip">Microchip</h1>
+<p>除了簽到題以外最多人做出來的一題，其實就是給你一個function，看懂之後發現它是對輸入的flag每四個char為一組加密，加密方法是把ASCII加減特定的值，於是就先用flag開頭的AIS3去reverse找出加密的key，然後後面就可以照著key reverse出原本的flag了。</p>
+<p>因為是看懂程式碼就會做的題目，好像也沒學到什麼技巧(?)</p>
+<h1 id="resident-evil-village">ReSident evil villAge</h1>
+<p>目標是要嘗試得到&quot;Ethan Winters&quot;經過RSA加密後的簽名，可以對server做的事情是輸入字串並得到簽名，只不過該字串不能是&quot;Ethan Winters&quot;。</p>
+<p>終於看懂程式在幹嘛後發現，因為加密方法是<code>pow(bytes_to_long(msg), d, n)</code>，所以可以先將<code>bytes_to_long(Ethan Winters)</code>分成兩個數字$p, q$的乘積後用<code>long_to_bytes(p) * long_to_bytes(q) % n</code>去得到原本的簽名，丟去server那邊驗證就順利拿到flag。</p>
+<p>因為一開始就出現RSA.generate()所以就大概知道是要往這邊研究，原本一直覺得是要解出$d$，還在想大數找原根之類的事情，查了一些資料複習了好久沒碰的RSA後確定那不可做，也才突然想到其實題目應該只是想要我們利用那個函式而已xd</p>
+<h1 id="republic-of-south-africa">Republic of South Africa</h1>
+<p>目標一樣是要解RSA加密，題目給了一個會產生兩個質數$p, q$的function，然後會給你<code>e</code>、<code>n = p * q</code>，還有<code>c = pow(bytes_to_long(flag), e, n)</code>。</p>
+<p>其實就是要求出$p, q$的值，然後flag就會是<code>long_to_bytes(pow(c,e * inv(lcm(p-1, q-1)), n))</code>。研究了一下function後發現是一個彈性碰撞模擬，兩個質量相差$10^{153}$倍的物品在力學能守恆下由大質量的那方撞向另一方，另一方會反彈再撞回去直到大質量的那方最終改變方向，得到總碰撞次數cnt後再隨機選出$p + q = $ cnt。</p>
+<p>直接執行function後就發現是跑不完的，一開始想到的方法是把彈性碰撞寫成線性遞迴式子，然後嘗試用快速冪去二分搜，但寫完發現數字都會變成<code>inf</code>根本不可能得到答案。又盯著它看了不少時間，才想說先試試$10^{5}$的case好了，發現碰撞次數是$31415$(??)，於是又試試看$10^{6}$發現是$314159$，就大膽猜測是 $\pi$ 的前$k$位了，拿回去加上$n$的條件就成功解出$p, q$拿到flag。</p>
+<p>可惜我 $\pi$ 只背到前$30$位，不然直接打出來應該很爽xd 然後其實得到cnt後到解出$p, q$我又花了超長時間，原因是python的<code>sqrt()</code>不夠精確，然後我一直以為是那個數字不是完全平方數。</p>
+<p>這題原本真的超想放棄，要不是最後那個通靈的觀察我根本不可能做出來，更扯的是賽後問到的每個人都說這是冷知識(!?)，果然我真的不會物理QQ</p>
+<h1 id="ⲩⲉⲧ-ⲁⲛⲟⲧⲏⲉꞅ-𝓵ⲟ𝓰ⲓⲛ-ⲣⲁ𝓰ⲉ">ⲩⲉⲧ ⲁⲛⲟⲧⲏⲉꞅ 𝓵ⲟ𝓰ⲓⲛ ⲣⲁ𝓰ⲉ</h1>
+<p>目標很簡單，就是登入網頁然後拿到flag。</p>
+<p>完全沒有任何Web CTF的相關背景，盯著程式碼看了非常久總算感覺Json的那邊感覺有點小怪，看起來像是直接把內容替換上去，想說不然傳傳看奇怪東西像是&quot;之類的，然後網頁就壞了，也更加確定我的猜測。</p>
+<p>照著前面的程式碼生出<br>
+username: <code>casper&quot;, showflag: true, &quot;a&quot;:&quot;b</code><br>
+password: <code>&quot;, password: , &quot;a&quot;:&quot;b</code><br>
+然後就成功拿到flag了</p>
+<p>事後被提醒才想起來這好像叫injection xd</p>
+<h1 id="microcheese">Microcheese</h1>
+<p>原本在研究Microchess，結果就發現變成兩題了，把兩題打開比對程式碼後發現只差兩行，然後這題就被秒掉了。</p>
+<h1 id="microchess">Microchess</h1>
+<p>目標是跟AI玩一場先手必輸的nim然後你是先手，贏了才可以拿到flag。</p>
+<p>看完整段程式碼後找不到明顯的遊戲bug，但因為有儲存遊戲的設定，然後儲存方式是加密後儲存，感覺可以操作的點一定就在這邊，原本想說是不是可以直接reverse回去盤面，但怎麼查怎麼試都失敗QQ</p>
+<p>最後一天的早上開了提示，查到一個叫Length extension attack的東西才突然驚覺原來那個block充滿漏洞xd 於是照著維基百科上面講的方式去做就順利得到先手必勝盤面，flag成功到手！</p>
+<p>原本看到是賽局覺得終於有自己擅長的東西了，結果根本毫無關聯，不過學到新的hashing function破解技巧也很酷就是了。</p>
+<h1 id="後記">後記</h1>
+<p>最後幾個小時都在搞microchart，結果因為不會做模256下的高斯消去而壓線失敗，小可惜。</p>
+<p>最終名次是rk68，對於新手而言應該不算太糟(?) 總之有進就好xd</p>
+
+				</div>
+			</div>
+		</div>
+	</article>
+</section>
+
+        </main><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+        </div>
+    </div>
+</footer></body>
+</html>
