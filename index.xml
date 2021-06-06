@@ -6,16 +6,7 @@
     <description>Recent content on cwblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CF 1103D Professional layer</title>
-      <link>https://casperwang.github.io/blog/2021-06-05-cf_1103d/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://casperwang.github.io/blog/2021-06-05-cf_1103d/</guid>
-      <description>Description 題目連結 給你 $N$ 個數字，對於每個數字你可以進行至多一次操作：將 $a_i$ 除以一個他小於等於 $k$ 的因數。 每個數字 $a_i$ 有各自的 $e_i$ 代表若對他採取操作會需要增加</description>
-    </item>
-    
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://casperwang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AIS3 pre-exam</title>
       <link>https://casperwang.github.io/blog/2021-05-22-ais3_pre_exam/</link>
@@ -40,7 +31,7 @@
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://casperwang.github.io/blog/2021-04-28-test/</guid>
-      <description>Yeah！終於成功了XD 之前的blog呢？ 因為之前用別人的theme覺得不滿意的地方實在太多，就決定從頭開始全部自己弄了，希望他會變得越來越</description>
+      <description>Yeah！終於成功了XD 之前的blog呢？ &amp;emsp;&amp;emsp;因為之前用別人的theme覺得不滿意的地方實在太多，就決定從頭開始全部自己</description>
     </item>
     
     <item>
